@@ -1,6 +1,6 @@
-function SignupForm() {
+function Signup() {
     return (
         <h1>Signup</h1>
     )
 }
-export default SignupForm;
+export default Signup;

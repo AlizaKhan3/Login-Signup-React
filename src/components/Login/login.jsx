@@ -1,7 +1,17 @@
+import "./login.css"
+import Input from "../Input/input";
+
 function Login() {
     return (
-        <h1>Login</h1>
+        <div className="container">
+            <div className="innerBox">
+                <h1 className="heading">
+                    Login
+                </h1>
+                <Input label="Email" placeholder="Enter your email"></Input>
+            </div>
+        </div>
     )
 }
 
-export default Login
+export default Login;
