@@ -6,6 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .innerBox {
@@ -38,8 +40,14 @@
 .btnSpan span button a{
     font-weight: 600;
     text-decoration: none !important;
+    margin-left: -22px;
+    text-transform: capitalize !important;
 }
 
 .btnSpan span button a:active{
     color: #9900ff;
+}
+
+.loginBtn:active{
+color: white !important;
 }
