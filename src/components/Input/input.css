@@ -5,7 +5,7 @@
 }
 
 .inputContainer label{
-    padding: 2px;
+    padding: 3px;
     text-align: left;
     font-weight: 500;
     font-size: 1rem;
@@ -14,7 +14,7 @@
 
 .inputContainer input{
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1.5px solid #ccc;
     outline: none;
     padding: 10px 15px;
     color: #000;
@@ -23,7 +23,6 @@
 .inputContainer input:hover{
     border-color: #ccc;
 }
-
 
 .inputContainer input:focus{
     border-color: #9900ff;
