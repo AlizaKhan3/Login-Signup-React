@@ -2,7 +2,6 @@
     height: 100vh;
     min-height: 100%;
     width: 100%;
-    background-color: #9900ff;
     background: linear-gradient(to right, #9900ff, #cc80ff);
     display: flex;
     justify-content: center;
@@ -10,11 +9,37 @@
 }
 
 .innerBox {
-    min-width: 400px;
-    height: fit-content;
-    width: fit-content;
-    background-color: #fff;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2) !important;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 12px !important;
+}
+
+.heading{
+    text-align: center;
+    font-weight: 700 !important;
+}
+
+.inputFields{
+    margin-top: 60px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.btnSpan{
+   font-weight: 600 !important;
+}
+
+.btnSpan span button a{
+    font-weight: 600;
+    text-decoration: none !important;
+}
+
+.btnSpan span button a:active{
+    color: #9900ff;
 }
