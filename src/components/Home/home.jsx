@@ -13,6 +13,9 @@ function Home(props) {
                 <button>
                     <Link to="/Signup">Signup</Link>
                 </button>
+                <button>
+                    <Link to="/AppDashboard">Dashboard</Link>
+                </button>
             </div>
             <br></br>
             <br></br>
