@@ -1,0 +1,10 @@
+.Namediv{
+    display: flex;
+    /* justify-content: center;
+    align-items: ; */
+    gap: 10px;
+}
+
+.inputFields{
+    margin-top: 20px;
+}
