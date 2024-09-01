@@ -1,4 +1,4 @@
-# Login-Signup-React
+# Login-Signup-React Using Firebase Authentication & Material UI
 <br/>
 
 # Description:
