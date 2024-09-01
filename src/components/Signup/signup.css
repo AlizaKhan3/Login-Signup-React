@@ -1,10 +1,14 @@
 .Namediv{
     display: flex;
-    /* justify-content: center;
-    align-items: ; */
     gap: 10px;
 }
 
 .inputFields{
     margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
