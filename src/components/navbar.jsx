@@ -16,6 +16,7 @@ import { Link } from 'react-router-dom';
 import Dashboard from '@mui/icons-material/Dashboard';
 import { useNavigate } from 'react-router-dom';
 
+
 const pages = ['Dashboard', 'Pricing', 'Blog'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
